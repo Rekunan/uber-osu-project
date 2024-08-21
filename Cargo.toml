@@ -1,0 +1,11 @@
+[package]
+name = "uber"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.30"
+rosu-mods = "0.1.0"
+rosu-pp = "1.0.0"
+rosu-v2 = "0.8.0"
+tokio = { version = "1.38.0", features = ["rt-multi-thread", "macros"]}
